@@ -12,8 +12,8 @@
   #include <PubSubClient.h>
   #include <Adafruit_VL53L0X.h>
   //WiFi credentials
-  const char* ssid = "Samanvai";
-  const char* pass = "12345678";
+  const char* ssid = "YOUR WIFI SSID";
+  const char* pass = "WIFI PASSWORD";
   
   //ThingSpeak Channnel
   unsigned long myChannelNumber = 3435480;
