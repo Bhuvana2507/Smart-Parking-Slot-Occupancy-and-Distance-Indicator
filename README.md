@@ -188,18 +188,3 @@ The system can be further enhanced by:
 * Implementing AI-based parking prediction
 * Providing navigation to the nearest available parking slot
 
-## Repository Structure
-
-```text
-Smart-Parking-System/
-│
-├── parking_slot.ino
-├── README.md
-└── PARKING SLOT OCCUPANCY AND DISTANCE INDICATOR.pptx
-```
-
-## Conclusion
-
-The Smart Parking Slot Occupancy and Distance Indicator demonstrates how IoT technology can improve parking management by combining real-time sensing, wireless communication, cloud connectivity, and web-based visualization.
-
-The ESP32 processes sensor data from the VL53L0X, MQTT is used for cloud communication with ThingSpeak, and the web dashboard provides real-time parking information. Although the prototype uses one physical sensor with additional software-simulated slots, the architecture can be extended to support multiple physical parking spaces.
